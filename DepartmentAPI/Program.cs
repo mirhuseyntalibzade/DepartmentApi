@@ -1,3 +1,4 @@
+using DepartmentBL;
 using DepartmentBL.Profiles.AppUserProfiles;
 using DepartmentBL.Services.Abstractions;
 using DepartmentBL.Services.Concretes;
@@ -22,8 +23,8 @@ builder.Services.AddIdentity<AppUser, IdentityRole>(opt =>
     opt.Lockout.MaxFailedAccessAttempts = 3;
 }).AddDefaultTokenProviders().AddEntityFrameworkStores<AppDBContext>();
 
-builder.Services.AddScoped<IAuthService, AuthService>();
-builder.Services.AddScoped<IEmailService, EmailService>();
+builder.Services.AddBusinessServices();
+
 builder.Services.AddAutoMapper(typeof(AppUserProfile));
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
