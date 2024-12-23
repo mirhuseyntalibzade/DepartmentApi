@@ -1,0 +1,17 @@
+C:\Users\My Computer\source\repos\DepartmentManagement\DepartmentBL\bin\Debug\net8.0\DepartmentBL.deps.json
+C:\Users\My Computer\source\repos\DepartmentManagement\DepartmentBL\bin\Debug\net8.0\DepartmentBL.dll
+C:\Users\My Computer\source\repos\DepartmentManagement\DepartmentBL\bin\Debug\net8.0\DepartmentBL.pdb
+C:\Users\My Computer\source\repos\DepartmentManagement\DepartmentBL\obj\Debug\net8.0\DepartmentBL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\My Computer\source\repos\DepartmentManagement\DepartmentBL\obj\Debug\net8.0\DepartmentBL.AssemblyInfoInputs.cache
+C:\Users\My Computer\source\repos\DepartmentManagement\DepartmentBL\obj\Debug\net8.0\DepartmentBL.AssemblyInfo.cs
+C:\Users\My Computer\source\repos\DepartmentManagement\DepartmentBL\obj\Debug\net8.0\DepartmentBL.csproj.CoreCompileInputs.cache
+C:\Users\My Computer\source\repos\DepartmentManagement\DepartmentBL\obj\Debug\net8.0\DepartmentBL.dll
+C:\Users\My Computer\source\repos\DepartmentManagement\DepartmentBL\obj\Debug\net8.0\refint\DepartmentBL.dll
+C:\Users\My Computer\source\repos\DepartmentManagement\DepartmentBL\obj\Debug\net8.0\DepartmentBL.pdb
+C:\Users\My Computer\source\repos\DepartmentManagement\DepartmentBL\obj\Debug\net8.0\ref\DepartmentBL.dll
+C:\Users\My Computer\source\repos\DepartmentManagement\DepartmentBL\bin\Debug\net8.0\DepartmentCore.dll
+C:\Users\My Computer\source\repos\DepartmentManagement\DepartmentBL\bin\Debug\net8.0\DepartmentDAL.dll
+C:\Users\My Computer\source\repos\DepartmentManagement\DepartmentBL\bin\Debug\net8.0\DepartmentDAL.pdb
+C:\Users\My Computer\source\repos\DepartmentManagement\DepartmentBL\bin\Debug\net8.0\DepartmentCore.pdb
+C:\Users\My Computer\source\repos\DepartmentManagement\DepartmentBL\obj\Debug\net8.0\DepartmentBL.csproj.AssemblyReference.cache
+C:\Users\My Computer\source\repos\DepartmentManagement\DepartmentBL\obj\Debug\net8.0\Departme.CFA54441.Up2Date
