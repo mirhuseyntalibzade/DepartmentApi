@@ -10,3 +10,16 @@ C:\Users\My Computer\source\repos\DepartmentManagement\DepartmentCore\obj\Debug\
 C:\Users\My Computer\source\repos\DepartmentManagement\DepartmentCore\obj\Debug\net8.0\refint\DepartmentCore.dll
 C:\Users\My Computer\source\repos\DepartmentManagement\DepartmentCore\obj\Debug\net8.0\DepartmentCore.pdb
 C:\Users\My Computer\source\repos\DepartmentManagement\DepartmentCore\obj\Debug\net8.0\ref\DepartmentCore.dll
+C:\Users\My Computer\Desktop\CodeAcademy\DepartmentManagement\DepartmentCore\bin\Debug\net8.0\DepartmentCore.deps.json
+C:\Users\My Computer\Desktop\CodeAcademy\DepartmentManagement\DepartmentCore\bin\Debug\net8.0\DepartmentCore.dll
+C:\Users\My Computer\Desktop\CodeAcademy\DepartmentManagement\DepartmentCore\bin\Debug\net8.0\DepartmentCore.pdb
+C:\Users\My Computer\Desktop\CodeAcademy\DepartmentManagement\DepartmentCore\obj\Debug\net8.0\DepartmentCore.csproj.AssemblyReference.cache
+C:\Users\My Computer\Desktop\CodeAcademy\DepartmentManagement\DepartmentCore\obj\Debug\net8.0\DepartmentCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\My Computer\Desktop\CodeAcademy\DepartmentManagement\DepartmentCore\obj\Debug\net8.0\DepartmentCore.AssemblyInfoInputs.cache
+C:\Users\My Computer\Desktop\CodeAcademy\DepartmentManagement\DepartmentCore\obj\Debug\net8.0\DepartmentCore.AssemblyInfo.cs
+C:\Users\My Computer\Desktop\CodeAcademy\DepartmentManagement\DepartmentCore\obj\Debug\net8.0\DepartmentCore.csproj.CoreCompileInputs.cache
+C:\Users\My Computer\Desktop\CodeAcademy\DepartmentManagement\DepartmentCore\obj\Debug\net8.0\DepartmentCore.sourcelink.json
+C:\Users\My Computer\Desktop\CodeAcademy\DepartmentManagement\DepartmentCore\obj\Debug\net8.0\DepartmentCore.dll
+C:\Users\My Computer\Desktop\CodeAcademy\DepartmentManagement\DepartmentCore\obj\Debug\net8.0\refint\DepartmentCore.dll
+C:\Users\My Computer\Desktop\CodeAcademy\DepartmentManagement\DepartmentCore\obj\Debug\net8.0\DepartmentCore.pdb
+C:\Users\My Computer\Desktop\CodeAcademy\DepartmentManagement\DepartmentCore\obj\Debug\net8.0\ref\DepartmentCore.dll

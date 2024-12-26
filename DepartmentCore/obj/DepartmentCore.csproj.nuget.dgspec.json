@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\My Computer\\source\\repos\\DepartmentManagement\\DepartmentCore\\DepartmentCore.csproj": {}
+    "C:\\Users\\My Computer\\Desktop\\CodeAcademy\\DepartmentManagement\\DepartmentCore\\DepartmentCore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\My Computer\\source\\repos\\DepartmentManagement\\DepartmentCore\\DepartmentCore.csproj": {
+    "C:\\Users\\My Computer\\Desktop\\CodeAcademy\\DepartmentManagement\\DepartmentCore\\DepartmentCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\My Computer\\source\\repos\\DepartmentManagement\\DepartmentCore\\DepartmentCore.csproj",
+        "projectUniqueName": "C:\\Users\\My Computer\\Desktop\\CodeAcademy\\DepartmentManagement\\DepartmentCore\\DepartmentCore.csproj",
         "projectName": "DepartmentCore",
-        "projectPath": "C:\\Users\\My Computer\\source\\repos\\DepartmentManagement\\DepartmentCore\\DepartmentCore.csproj",
+        "projectPath": "C:\\Users\\My Computer\\Desktop\\CodeAcademy\\DepartmentManagement\\DepartmentCore\\DepartmentCore.csproj",
         "packagesPath": "C:\\Users\\My Computer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\My Computer\\source\\repos\\DepartmentManagement\\DepartmentCore\\obj\\",
+        "outputPath": "C:\\Users\\My Computer\\Desktop\\CodeAcademy\\DepartmentManagement\\DepartmentCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

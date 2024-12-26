@@ -11,6 +11,8 @@ namespace DepartmentDAL.Contexts
 {
     public class AppDBContext : IdentityDbContext<AppUser>
     {
+        public DbSet<Employee> Employees { get; set; }
+        public DbSet<Department> Departments { get; set; }
         public AppDBContext(DbContextOptions opt) : base(opt) { }
     }
 }

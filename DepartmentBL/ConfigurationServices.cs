@@ -1,11 +1,11 @@
-﻿using DepartmentBL.Services.Abstractions;
+﻿using BusinessLayer.Services.Abstractions;
+using BusinessLayer.Services.Implementations;
+using DepartmentBL.Services.Abstractions;
 using DepartmentBL.Services.Concretes;
+using DepartmentDAL.Repositories.Abstractions;
+using DepartmentDAL.Repositories.Implementations;
+using DepartmentDAL.Repositories.Iplementations;
 using Microsoft.Extensions.DependencyInjection;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DepartmentBL
 {
@@ -15,6 +15,10 @@ namespace DepartmentBL
         {
             services.AddScoped<IAuthService, AuthService>();
             services.AddScoped<IEmailService, EmailService>();
+            services.AddScoped<IDepartmentRepository, DepartmentRepository>();
+            services.AddScoped<IEmployeeRepository, EmployeeRepository>();
+            services.AddScoped<IEmployeeService, EmployeeService>();
+            services.AddScoped<IDepartmentService, DepartmentService>();
         }
     }
 }

@@ -1,5 +1,7 @@
 using DepartmentBL;
 using DepartmentBL.Profiles.AppUserProfiles;
+using DepartmentBL.Profiles.DeparmentProfiles;
+using DepartmentBL.Profiles.EmployeeProfiles;
 using DepartmentBL.Services.Abstractions;
 using DepartmentBL.Services.Concretes;
 using DepartmentCore.Models;
@@ -12,6 +14,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<AppDBContext>(opt =>
 {
     opt.UseSqlServer(builder.Configuration.GetConnectionString("MsSql"));
+    opt.UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking);
 });
 
 builder.Services.AddIdentity<AppUser, IdentityRole>(opt =>
@@ -26,6 +29,8 @@ builder.Services.AddIdentity<AppUser, IdentityRole>(opt =>
 builder.Services.AddBusinessServices();
 
 builder.Services.AddAutoMapper(typeof(AppUserProfile));
+builder.Services.AddAutoMapper(typeof(DepartmentProfile));
+builder.Services.AddAutoMapper(typeof(EmployeeProfile));
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
