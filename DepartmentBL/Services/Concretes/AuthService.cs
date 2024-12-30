@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using DepartmentBL.DTOs.UserDTO;
+using DepartmentBL.ExternalServices.Interfaces;
 using DepartmentBL.Services.Abstractions;
 using DepartmentCore.Models;
 using DepartmentDAL.Contexts;
@@ -14,18 +15,18 @@ namespace DepartmentBL.Services.Concretes
     public class AuthService : IAuthService
     {
         readonly UserManager<AppUser> _userManager;
-        readonly SignInManager<AppUser> _signInManager;
         readonly IEmailService _emailService;
         readonly IHttpContextAccessor _httpContextAccessor;
-        private readonly IMapper _mapper;
+        readonly IMapper _mapper;
+        readonly ITokenService _tokenService;
 
-        public AuthService(IHttpContextAccessor httpContextAccessor, UserManager<AppUser> userManager, SignInManager<AppUser> signInManager, AppDBContext context, IEmailService emailService, IMapper mapper)
+        public AuthService(IHttpContextAccessor httpContextAccessor, UserManager<AppUser> userManager, AppDBContext context, IEmailService emailService, IMapper mapper,ITokenService tokenService)
         {
-            _signInManager = signInManager;
             _userManager = userManager;
             _emailService = emailService;
             _httpContextAccessor = httpContextAccessor;
             _mapper = mapper;
+            _tokenService = tokenService;
         }
 
         public async Task ForgotPasswordAsync(string email)
@@ -119,15 +120,13 @@ namespace DepartmentBL.Services.Concretes
                 throw new Exception("Credentials are incorrect.");
             }
 
-            await _signInManager.SignInAsync(user, isPersistent: false);
-
+            _tokenService.GenerateToken(user);
             return true;
         }
 
-        public async Task LogoutAsync()
-        {
-            await _signInManager.SignOutAsync();
-        }
+        //public async Task LogoutAsync()
+        //{
+        //}
 
         public async Task<bool> RegisterAsync(RegisterUserDTO user)
         {

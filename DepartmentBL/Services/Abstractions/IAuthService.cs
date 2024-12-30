@@ -16,7 +16,7 @@ namespace DepartmentBL.Services.Abstractions
         Task ForgotPasswordAsync(string email);
         Task ResetPasswordAsync(string email, string token, string newPassword);
         Task ChangePasswordAsync(string email, string password, string newPassword);
-        Task LogoutAsync();
+        //Task LogoutAsync();
         Task<IEnumerable<UserDTO>> GetAllUsersAsync();
         Task<UserDTO> GetOneUserAsync(string userName);
     }

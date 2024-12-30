@@ -111,12 +111,12 @@ namespace DepartmentAPI.Controllers
             }
         }
 
-        [HttpGet]
-        [Route("logout")]
-        public async Task Logout()
-        {
-            await _service.LogoutAsync();
-        }
+        //[HttpGet]
+        //[Route("logout")]
+        //public async Task Logout()
+        //{
+        //    await _service.LogoutAsync();
+        //}
 
         [HttpPost]
         [Route("forgot-password")]

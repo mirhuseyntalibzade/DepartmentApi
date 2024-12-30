@@ -313,3 +313,4 @@ C:\Users\My Computer\Desktop\CodeAcademy\DepartmentManagement\DepartmentAPI\obj\
 C:\Users\My Computer\Desktop\CodeAcademy\DepartmentManagement\DepartmentAPI\obj\Debug\net8.0\DepartmentAPI.pdb
 C:\Users\My Computer\Desktop\CodeAcademy\DepartmentManagement\DepartmentAPI\obj\Debug\net8.0\DepartmentAPI.genruntimeconfig.cache
 C:\Users\My Computer\Desktop\CodeAcademy\DepartmentManagement\DepartmentAPI\obj\Debug\net8.0\ref\DepartmentAPI.dll
+C:\Users\My Computer\Desktop\CodeAcademy\DepartmentManagement\DepartmentAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

@@ -1,5 +1,7 @@
 ﻿using BusinessLayer.Services.Abstractions;
 using BusinessLayer.Services.Implementations;
+using DepartmentBL.ExternalServices.Implementations;
+using DepartmentBL.ExternalServices.Interfaces;
 using DepartmentBL.Services.Abstractions;
 using DepartmentBL.Services.Concretes;
 using DepartmentDAL.Repositories.Abstractions;
@@ -14,6 +16,7 @@ namespace DepartmentBL
         public static void AddBusinessServices(this IServiceCollection services)
         {
             services.AddScoped<IAuthService, AuthService>();
+            services.AddScoped<ITokenService, TokenService>();
             services.AddScoped<IEmailService, EmailService>();
             services.AddScoped<IDepartmentRepository, DepartmentRepository>();
             services.AddScoped<IEmployeeRepository, EmployeeRepository>();

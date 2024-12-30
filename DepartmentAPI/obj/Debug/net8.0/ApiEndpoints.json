@@ -70,22 +70,6 @@
   },
   {
     "ContainingType": "DepartmentAPI.Controllers.AccountsController",
-    "Method": "Logout",
-    "RelativePath": "api/Accounts/logout",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "DepartmentAPI.Controllers.AccountsController",
     "Method": "Register",
     "RelativePath": "api/Accounts/register",
     "HttpMethod": "POST",
